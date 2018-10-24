@@ -39,7 +39,7 @@ module.exports = {
       return undefined;
     }
 
-    var ESLint = require('broccoli-lint-eslint');
+    var ESLint = require('@gaurav9576/broccoli-lint-eslint');
 
     return ESLint.create(tree, {
       testGenerator: this.options.testGenerator || this._testGenerator,

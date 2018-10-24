@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-eslint",
-  "version": "4.2.3",
+  "name": "@gaurav9576/ember-cli-eslint",
+  "version": "5.0.0",
   "description": "Ember-cli eslint support, for checking your application matches your coding standards.",
   "keywords": [
     "ember",
@@ -37,7 +37,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "broccoli-lint-eslint": "ember-cli/broccoli-lint-eslint#master",
+    "@gaurav9576/broccoli-lint-eslint": "^5.0.0",
     "ember-cli-version-checker": "^2.1.0",
     "rsvp": "^4.6.1",
     "walk-sync": "^0.3.0"

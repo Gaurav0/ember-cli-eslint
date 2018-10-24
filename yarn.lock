@@ -601,6 +601,19 @@
     ember-cli-babel "^6.12.0"
     ember-cli-htmlbars-inline-precompile "^1.0.0"
 
+"@gaurav9576/broccoli-lint-eslint@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@gaurav9576/broccoli-lint-eslint/-/broccoli-lint-eslint-5.0.0.tgz#9f385faafc18f2f44572b1fa740fbf7707adb414"
+  integrity sha512-MEUY0RaIExp15FZk+SkGYrKXCWLrlxYborcdTwn5eDjGYOcZDtFiHPVIw1MqgmQTVYG221AqSicV8BB+hqiNYg==
+  dependencies:
+    aot-test-generators "^0.1.0"
+    broccoli-concat "^3.2.2"
+    broccoli-persistent-filter "^2.1.0"
+    eslint "^5.6.0"
+    json-stable-stringify "^1.0.1"
+    lodash.defaultsdeep "^4.6.0"
+    md5-hex "^2.0.0"
+
 "@glimmer/di@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@glimmer/di/-/di-0.2.0.tgz#73bfd4a6ee4148a80bf092e8a5d29bcac9d4ce7e"
@@ -691,10 +704,10 @@ ansi-escapes@^1.1.0:
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
   integrity sha1-06ioOzGapneTZisT52HHkRQiMG4=
 
-ansi-escapes@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-2.0.0.tgz#5bae52be424878dd9783e8910e3fc2922e83c81b"
-  integrity sha1-W65SvkJIeN2Xg+iRDj/Cki6DyBs=
+ansi-escapes@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.1.0.tgz#f73207bb81207d75fd6c83f125af26eea378ca30"
+  integrity sha512-UgAb8H9D41AQnu/PbWlCofQVcnV4Gs2bBJi9eZPxfU/hgglFh3SMDMENRIqdr7H6XFnXdoknctFByVsCOotTVw==
 
 ansi-regex@^0.2.0, ansi-regex@^0.2.1:
   version "0.2.1"
@@ -2090,18 +2103,6 @@ broccoli-kitchen-sink-helpers@^0.3.1:
   dependencies:
     glob "^5.0.10"
     mkdirp "^0.5.1"
-
-broccoli-lint-eslint@ember-cli/broccoli-lint-eslint#master:
-  version "4.2.1"
-  resolved "https://codeload.github.com/ember-cli/broccoli-lint-eslint/tar.gz/9004ca95f574b256c885c83eed86452dca5f3e28"
-  dependencies:
-    aot-test-generators "^0.1.0"
-    broccoli-concat "^3.2.2"
-    broccoli-persistent-filter "^2.1.0"
-    eslint "^5.6.0"
-    json-stable-stringify "^1.0.1"
-    lodash.defaultsdeep "^4.6.0"
-    md5-hex "^2.0.0"
 
 broccoli-merge-trees@^1.0.0:
   version "1.2.4"
